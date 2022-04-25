@@ -1,6 +1,6 @@
 Auth:
-  project_token: "9655bf2e-dc3b-4f41-8c95-ba3fafc73114 "
-  customer_token:  "389e4d4a-ece0-4c1c-be13-384b1434c0f6"
+  project_token: "2daf793e-ea05-4dd3-b349-8b50cc5da8d3"
+  customer_token:  "3f2ceeb7-2a34-46e3-946b-2b6f73588c68"
 
    
 SCA:
@@ -11,7 +11,7 @@ SAST:
 
 DAST:
   type: "WEB" ## API, dWEB, WEB-ADV
-  URL: "http://www.boman.ai/" 
+  URL: "https://demo.testfire.net/" 
 
 Secret_Scan: True
 

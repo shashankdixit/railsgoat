@@ -14,5 +14,5 @@ Auth:
 #Secret_Scan: True
 
 DAST:
-  type: "Webapp" # API, WEB, WEB-ADV
+  type: "WEB" # API, WEB, WEB-ADV
   URL: "http://demo.testfire.net"

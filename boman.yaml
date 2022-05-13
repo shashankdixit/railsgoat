@@ -3,15 +3,16 @@ Auth:
   customer_token: "91c920c5-be7f-44fe-92bb-183995083674"
 
 SAST:
-  language: "ruby" eg:python,ruby
-  work_dir: "/path/to/directory/"
+  language: "ruby"
+  #work_dir: "/home/boxuser/box/repo/django.nV/"
+  #target: "commons-fileupload-1.4.jar"
 
 SCA:
-  language: "js" #eg:ls
-  work_dir: "/path/to/directory/"
+  language: "js"
+  # work_dir: /
+
+Secret_Scan: True
 
 DAST:
-  type: "Webapp" ## API, WebApp
-  URL: "YOUR URL"
-
-Secret_Scan: True # True or False
+  type: "WEB" # API, WEB, WEB-ADV
+  URL: "http://demo.testfire.net"

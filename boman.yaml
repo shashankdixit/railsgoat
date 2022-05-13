@@ -1,19 +1,13 @@
 Auth:
-  project_token: "2daf793e-ea05-4dd3-b349-8b50cc5da8d3"
-  customer_token:  "3f2ceeb7-2a34-46e3-946b-2b6f73588c68"
-
-   
-SCA:
-  language: "js" 
-
+  project_token: "d44fb21f-1a9b-4291-bf83-9647cb26f58d"
+  customer_token: "91c920c5-be7f-44fe-92bb-183995083674"
 SAST:
-   language: "ruby" 
-
+  language: "" eg:python,ruby
+  work_dir: "/path/to/directory/"
+SCA:
+  language: "" #eg:ls
+  work_dir: "/path/to/directory/"
 DAST:
-  type: "WEB" ## API, dWEB, WEB-ADV
-  URL: "https://nodegoat.herokuapp.com/login" 
-
-Secret_Scan: True
-
-
-
+  type: "Webapp" ## API, WebApp
+  URL: "YOUR URL"
+Secret_Scan: True # True or False

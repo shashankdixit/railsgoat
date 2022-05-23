@@ -13,6 +13,6 @@ SCA:
 
 Secret_Scan: True
 
-#DAST:
- # type: "WEB" # API, WEB, WEB-ADV
-  #URL: "http://demo.testfire.net"
+DAST:
+ type: "WEB" # API, WEB, WEB-ADV
+ URL: "http://demo.testfire.net"

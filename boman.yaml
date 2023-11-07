@@ -9,7 +9,7 @@ SAST:
 
 SCA:
  language: "js"
-#  work_dir: /
+##  work_dir: /
 
 Secret_Scan: True
 

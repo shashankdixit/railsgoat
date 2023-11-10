@@ -2,17 +2,17 @@ Auth:
   project_token: "b3f511a1-6675-4548-916e-de3b7c12a396"
   customer_token: "91c920c5-be7f-44fe-92bb-183995083674"
 
-#SAST:
-# language: "ruby"
+SAST:
+ language: "ruby"
  # work_dir: "/home/boxuser/box/repo/django.nV/"
 # target: "commons-fileupload-1.1.jar"
 
-#SCA:
-# language: "js"
+SCA:
+ language: "js"
 ##  work_dir: /
 
-#Secret_Scan: True
+Secret_Scan: True
 
-DAST:
- type: "WEB" # API, WEB, WEB-ADV
- URL: "https://uat.sign-up.acornfinance.com"
+#DAST:
+# type: "WEB" # API, WEB, WEB-ADV
+ #URL: "https://uat.sign-up.acornfinance.com"

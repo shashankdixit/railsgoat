@@ -8,7 +8,7 @@ SAST:
 # target: "commons-fileupload-1.1.jar"
 
 SCA:
- language: "js"
+ language: "ruby"
 ##  work_dir: /
 
 Secret_Scan: True

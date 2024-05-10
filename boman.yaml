@@ -15,4 +15,4 @@ Secret_Scan: True
 
 #DAST:
 ## type: "WEB" # API, WEB, WEB-ADV
- #URL: "https://uat.sign-up.acornfinance.com"
+ #URL: "https://uat.sign-up.acornfinance.comasd"

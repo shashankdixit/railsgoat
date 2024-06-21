@@ -28,7 +28,7 @@ $ git checkout rails_4_2
 
 Navigate into the directory (already there if you followed the previous step) and install the dependencies:
 
-```bash
+```bashk
 $ bundle install
 ```
 

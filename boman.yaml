@@ -3,9 +3,14 @@ Auth:
   customer_token: 91c920c5-be7f-44fe-92bb-183995083674
 SAST:
   language: semgrep
-#DAST:
-#  type: WEB
-#  URL: https://demo.testfire.com
+DAST:
+  type: WEB
+  URL: https://demo.testfire.com
 SCA:
   language: ruby
 Secret_Scan: true
+container_scan:
+  type: config
+  target: ''
+SBOM: true
+IAC: true
